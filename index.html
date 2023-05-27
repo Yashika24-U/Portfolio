@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link  href = "style.css"  rel = "stylesheet" type = "text/css">
+    <script src="https://kit.fontawesome.com/29ff51da44.js" crossorigin="anonymous"></script>
+    <!-- <link href ="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src = logo.png  class = "logo">
+                <ul id = "sidemenu">
+                    <li><a href = "#header">Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <!-- <li><a href = "#services">Services</a></li> -->
+                    <li><a href = "#portfolio">Portfolio</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                    <i class = "fas fa-times" onclick = "closemenu()"></i>
+                </ul>
+                <i class = "fas fa-bars" onclick = "openmenu()"></i>
+            </nav>
+                <div class="header-text">
+                    <p>Developer & Designer</p>
+
+                    <h1>Hi, I'm <span>Yashika.U</span><br/> Aspiring Developer </h1>
+                </div>
+            
+        </div>
+    </div>
+    <!-- ==================================================================================about=================================== -->
+    <div id = "about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"> 
+                    <img src = "cols_4.1.png" >
+                </div>
+                <div class="about-col-2">
+                <h1 class = "sub-title">About Me</h1> 
+                <p>
+                    Hello World I'm Yashika , an aspiring developer.  For all skills I've learnt , programming and designing had always been there 
+                    and it never felt exhausting . I started with building games like BlackJack,rock,paper,scissors so on. After building my first I felt so 
+                     motivated  that led me to Website Developement. Where I am currently.</p>
+                          <p>  I am deeply passionate about programming (DSA) and it brings me immense joy and satisfaction to create and
+                        develop software solutions that solve real-world problems. I always enjoy exploring new coding challenges and
+                        languages,and enjoy experimenting with them. The problem solving skill had also enhanced my  analytical mindset ,
+                        to create things and build my logical thinking and that really made me to fall in love with.</p>
+
+                        <p> "I'm excited about the 
+                            endless possibilities that the world of technology has to offer."</p>
+                        
+                            <p><i class="fa-solid fa-code"></i><a href = " https://leetcode.com/Yashika_U/">Leetcode </a></p>
+
+                   
+
+                    <div class = "tab-titles">
+                        <p class = "tab-links active-link" onclick = "opentab('skills')">Skills</p>
+                        <p class = "tab-links" onclick = "opentab('experience')">Experience</p>
+                        <p class = "tab-links" onclick = "opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id = "skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> Designing Web / App Interface:<p>I am skilled in creating visually appealing UI designs that are user-friendly 
+                                and functional.</p></li>
+                            <li><span>Programming Languages</span><br><p>I have a decent level of coding proficiency and am able to write clean and functional code.
+                                 I have experience with programming languages such as,</p> C / C++ / Python(basics)  HTML / CSS / Javascript ES6 / ReactJs / SQL /and  Iam able to quickly learn 
+                                  new technologies and programming concepts."</li>
+                            <li><span>Areas of Interests</span><br> I have a strong interest in both software development and design, particularly in the areas of data structures and algorithms,
+                                 and user interface design. I enjoy the challenge of creating efficient and scalable software solutions, while also crafting visually appealing and user-friendly 
+                                 interfaces that meet the needs of end-users."</li>
+                        
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                                
+                                <li><span>AI Based Discourse for Banking Industry</span><br>Chatbots are the biggest development today.
+                                     They play vital role from start-up’s to enterprises and help user to simplify their work. Banking sector has seen tremendous growth in the recent years due to the advancement in technology. But the customer could not visit bank anytime, though they visit bank they have to stand in long queue for hours and the processing fee makes customer more frustrated. To overcome this scenarios Banking website are associated with banking Chatbots. They facilitate customer and guide user throughout the queries in the process, provides high customer satisfaction and   enhance user experience and resolves customer queries actively.
+
+                                    ● Our chatbot is able to guide a customer to create a bank account. (Both current and savings account)
+                                    ● Our chatbot is able to answer loan queries.
+                                    ● Our chatbot is able to answer general banking queries.
+                                    ● Our chatbot is able to answer queries regarding net banking</li>
+                                <li><span>BlackJack Game</span><br> Designed an BlackJack Game with HTML ,CSS and Javascript</li>
+                                <li><span>Calculator</span><br> Designed Calculator with HTML,CSS and Javascript</li>
+                             
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                                <li><span>2023</span><br>B.E - Priyadarshini Engineering College</li>
+                                <li><span>2019</span><br>12th - Vetri Vikaas Girls Higher Secondary School</li>
+                                <li><span>2017</span><br>10th - Iqra Matriculation School</li>
+                                <p><span>Certificates & Credentials:</span></p>
+                                <!-- <li><span></span><br> -->
+                                <li>Completed HTML and CSS course - March 2020</li>
+                                <li>Artificial Intelligence Course - Nov 2021</li>
+                                
+                                <li><span>Visit My Works</span>
+                                <p><i class="fa-brands fa-github"></i><a href = "https://github.com/Yashika24-U">Github</a></p>
+
+                            
+                        </ul>
+                    </div>
+                </div>
+                    
+               
+                
+            </div>
+        </div>
+    </div>
+<!-- -----------------------------Portfolio------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class = "sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src = "socio.png">
+                <div class="layer">
+                    <h3>Banking Chatbot</h3>
+                        <p>The bank doesn't give the proper customer support to solve the queries of the customer. Our project based on AI based discourse for Banking Industry - 
+                            The AI assistant is nothing but a Chatbot which helps the customers to inquire about the issues they are facing, without having human
+                             interaction</p>
+                        <a href = "https://github.com/IBM-EPBL/IBM-Project-12106-1659372335/tree/main/Final%20Deliverables"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        
+            <div class="work">
+                <img src = "e-placement.png">
+                <div class="layer">
+                    <h3>An Automated E-Placement Portal</h3>
+                        <p> An Automated E-placement Portal helps the colleges to overcome the difficulty in keeping records of hundreds
+                         and thousands of students and searching for recruitment criteria from the whole thing.The project aim is to
+                          automate the process of placement management system and make the process of recruitment easy and simpler.
+                         This leads to unique webpage Placement Management System.
+                         </p>
+                        <a href = "https://github.com/Yashika24-U/AN-AUTOMATED-E-PLACEMENT-PORTAL"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <!-- <div class="work">
+                <img src = "works.webp">
+                <div class="layer">
+                    <h3>Banking Chatbot</h3>
+                        <p>The banking chatbot resolves the queries of the customer instantly</p>
+                        <a href = "#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div> -->
+            </div>
+        </div>
+        <a href  = "https://github.com/Yashika24-U" class = "btn">See more</a>
+        
+    </div>
+
+</div>
+<!-------------------------------------- Contact-------------------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <!-- here we have to create two cols  -->
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p><i class = "fas fa-paper-plane"></i>yashikayeshi@gmail.com</p>
+                <p><i class = "fas fa-phone-square-alt"></i>9360748089</p>
+                <div class="social-icons">
+                    <a href = ""><i class ="fab fa-instagram"></i></a>
+                    <a href = "https://www.linkedin.com/in/yashika-uvaraj-5381161a3/"><i class ="fab fa-linkedin"></i></a>
+                    <!-- <a href = ""><i class ="fab fa-twitter-square "></i></a> -->
+                </div>
+                <a href  = "Yashika.U-Resume.pdf" download class ="btn btn2">Download CV</a>
+             </div>
+            <div class="contact-right"></div>
+                <form name = 'submit-to-google-sheet'>
+                    <input type = "text" name = "Name" placeholder = "Your Name" required>
+                    <input type = "email" name = "Email" placeholder = "Your Email" required>
+                    <textarea name = "Message" rows = "6" placeholder="Your Message"></textarea>
+                    <button type="submit" class = "btn btn2 ">Submit</button>
+                </form>
+                <span id = "msg"></span>
+                 
+            </div>
+        </div>
+
+    </div>
+    <div class="copyright">
+        <p>Copyright © Yashika.U Made with Passion<i class = "fas fa-heart"></i></p>
+    </div>
+</div>
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    
+    var tabcontents = document.getElementsByClassName('tab-contents');
+    function opentab(tabname)
+    {
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu()
+    {
+        sidemenu.style.right = "0";
+    }
+    function closemenu()
+    {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwtXZ01qTEFLWV4sfx_EsXQgM9-LSWV4cJLnpvW8CcBAjMVWNqcUmHb39syP5FzXtKx/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => 
+       {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+             msg.innerHTML = ""
+        },5000)
+        form.reset()
+       }) 
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+
+
+</body>
+</html>  
